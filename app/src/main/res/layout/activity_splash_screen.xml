@@ -1,109 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical">
-
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/def_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/def_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/selected_language"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <ImageView
+                android:id="@+id/img_sel_lang"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:scaleType="fitXY"
+                android:src="@drawable/english" />
+
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/selected_language"
+            android:layout_marginTop="@dimen/def_margin"
+            android:text="@string/select_language"
             android:textColor="@color/colorAccent"
-            android:textSize="@dimen/def_ttl_size" />
+            android:textSize="@dimen/def_lbl_size" />
 
-        <ImageView
-            android:id="@+id/img_sel_lang"
-            android:layout_width="@dimen/width45"
-            android:layout_height="@dimen/height45"
-            android:layout_margin="@dimen/margin10"
-            android:scaleType="fitXY"
-            android:src="@drawable/english" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
 
+            <ImageView
+                android:id="@+id/img_arabic"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:scaleType="fitXY"
+                android:src="@drawable/arab" />
+
+            <ImageView
+                android:id="@+id/img_english"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:background="@drawable/cir_black"
+                android:scaleType="fitXY"
+                android:src="@drawable/english" />
+
+            <ImageView
+                android:id="@+id/img_chinese"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:scaleType="fitXY"
+                android:src="@drawable/china"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/img_russian"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:scaleType="fitXY"
+                android:src="@drawable/russia"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/img_malay"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:scaleType="fitXY"
+                android:src="@drawable/malaysia"
+                android:visibility="visible" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/select_language"
-        android:textColor="@color/colorAccent"
-        android:textSize="@dimen/def_ttl_size" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/img_arabic"
-            android:layout_width="@dimen/width45"
-            android:layout_height="@dimen/height45"
-            android:layout_margin="@dimen/margin10"
-            android:scaleType="fitXY"
-            android:src="@drawable/arab" />
+        <TextView
+            android:id="@+id/text_splash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text36" />
 
-        <ImageView
-            android:id="@+id/img_english"
-            android:layout_width="@dimen/width45"
-            android:layout_height="@dimen/height45"
-            android:layout_margin="@dimen/margin10"
-            android:background="@drawable/cir_black"
-            android:scaleType="fitXY"
-            android:src="@drawable/english" />
-
-        <ImageView
-            android:id="@+id/img_chinese"
-            android:layout_width="@dimen/width45"
-            android:layout_height="@dimen/height45"
-            android:layout_margin="@dimen/margin10"
-            android:scaleType="fitXY"
-            android:src="@drawable/china"
-            android:visibility="visible" />
-
-        <ImageView
-            android:id="@+id/img_russian"
-            android:layout_width="@dimen/width45"
-            android:layout_height="@dimen/height45"
-            android:layout_margin="@dimen/margin10"
-            android:scaleType="fitXY"
-            android:src="@drawable/russia"
-            android:visibility="visible" />
-
-        <ImageView
-            android:id="@+id/img_malay"
-            android:layout_width="@dimen/width45"
-            android:layout_height="@dimen/height45"
-            android:layout_margin="@dimen/margin10"
-            android:scaleType="fitXY"
-            android:src="@drawable/malaysia"
-            android:visibility="visible" />
+        <TextView
+            android:id="@+id/text_splash_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/def_ttl_size"
+            android:visibility="gone" />
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/text_splash_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/app_name"
-        android:textColor="@color/colorAccent"
-        android:textSize="@dimen/def_ttl_size" />
 
     <Button
         android:id="@+id/btn_continue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:text="@string/continu" />
 
-</LinearLayout>
+
+</RelativeLayout>

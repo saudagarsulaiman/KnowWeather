@@ -1,0 +1,19 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">تعرف الطقس</string>
+
+
+    <string name="copied">نسخ</string>
+    <string name="continu">استمر</string>
+    <string name="please_wait">ارجوك انتظر...</string>
+    <string name="errortxt">حدث خطأ ما ونحن نعمل على ذلك. يرجى المحاولة مرة أخرى بعد قليل</string>
+    <string name="Timeout">طلب مهلة. حاول مرة أخري.</string>
+    <string name="networkerror">خطأ في الشبكة ، يرجى المحاولة بعد قليل</string>
+    <string name="city_not_found">المدينة غير موجودة</string>
+    <string name="update_app">تحديث التطبيق</string>
+    <string name="data_not_found">لاتوجد بيانات</string>
+    <string name="select_language">اختار اللغة :</string>
+    <string name="selected_language">اللغة المختارة:</string>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">Знай погоду</string>
+
+
+    <string name="copied">скопированный</string>
+    <string name="continu">Продолжить</string>
+    <string name="please_wait">пожалуйста, подождите...</string>
+    <string name="errortxt">Что-то пошло не так. Мы работаем над этим. Пожалуйста, попробуйте через некоторое время</string>
+    <string name="Timeout">Истекло время запроса. Пожалуйста, попробуйте еще раз.</string>
+    <string name="networkerror">Ошибка сети, попробуйте через некоторое время</string>
+    <string name="city_not_found">Город не найден</string>
+    <string name="update_app">Обновить приложение</string>
+    <string name="data_not_found">Данные не найдены</string>
+    <string name="select_language">Выберите язык :</string>
+    <string name="selected_language">Выбранный язык:</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">Know Weather</string>
+
+
+    <string name="copied">Copied</string>
+    <string name="continu">Continue</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="errortxt">Something went wrong.We are working over it.Please try after some time</string>
+    <string name="Timeout">Request Time out. Please try again.</string>
+    <string name="networkerror">Network error,Please try after some time</string>
+    <string name="city_not_found">City Not Found</string>
+    <string name="update_app">Update Application</string>
+    <string name="data_not_found">No Data Found</string>
+    <string name="select_language">Select Language :</string>
+    <string name="selected_language">Selected Language :</string>
+
+
+</resources>

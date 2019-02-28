@@ -1,0 +1,20 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">知道天气</string>
+
+
+    <string name="copied">复制</string>
+    <string name="continu">继续</string>
+    <string name="please_wait">请耐心等待...</string>
+    <string name="errortxt">出了点问题。我们正在努力。请稍等片刻再试一次</string>
+    <string name="Timeout">请求超时。请再试一次。</string>
+    <string name="networkerror">网络错误，请稍后再试</string>
+    <string name="city_not_found">找不到城市</string>
+    <string name="update_app">更新申请</string>
+    <string name="data_not_found">找不到数据</string>
+    <string name="select_language">选择一种语言：</string>
+    <string name="selected_language">选定的语言：</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">Tahu Cuaca</string>
+
+
+    <string name="copied">Disalin</string>
+    <string name="continu">teruskan</string>
+    <string name="please_wait">Sila tunggu...</string>
+    <string name="errortxt">Ada yang salah. kami bekerja di atasnya. Mereka cuba selepas beberapa ketika</string>
+    <string name="Timeout">Permintaan masa tamat. Sila cuba lagi.</string>
+    <string name="networkerror">Ralat rangkaian, Sila cuba selepas beberapa waktu</string>
+    <string name="city_not_found">Bandar tidak dijumpai</string>
+    <string name="update_app">Kemas kini Aplikasi</string>
+    <string name="data_not_found">Tiada data dijumpai</string>
+    <string name="select_language">Pilih Bahasa :</string>
+    <string name="selected_language">Bahasa terpilih:</string>
+
+
+</resources>

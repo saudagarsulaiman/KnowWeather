@@ -1,0 +1,7 @@
+
+Jsquid:S1444"3Make this "public static myApplication" field final(·ªÒ‹
+bsquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(˚Ö±ó
+á"squid:ClassVariableVisibilityCheck"TMake activity a static final constant or non-public and provide accessors if needed.(Ú∆≠»˚ˇˇˇˇ
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÓÛÌ˛ˇˇˇˇ
+Rsquid:S2696-"6Make the enclosing method "static" or remove this set.(ãü√¿˘ˇˇˇˇ
+á"squid:ClassVariableVisibilityCheck"YMake myApplication a static final constant or non-public and provide accessors if needed.(·ªÒ‹

@@ -3,13 +3,183 @@
     android:id="@+id/lnr_parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg_grad"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/txt_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin50"
+        android:text="@string/details"
+        android:textColor="@color/white"
+        android:textSize="@dimen/def_ttl_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textColor="@color/black"
-        android:textSize="@dimen/def_text_size" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/def_margin"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_loc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/location"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_loc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/location"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_temp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/temp"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_temp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/temp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_humid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/humid"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_humid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/humid"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/desc"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/desc"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_latlong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/latlong"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_latlong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/latlong"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
 
 </LinearLayout>

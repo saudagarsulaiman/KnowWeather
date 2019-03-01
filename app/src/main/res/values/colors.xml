@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#41295A</color>
+    <color name="colorPrimaryDark">#41295A</color>
     <color name="colorAccent">#D81B60</color>
 
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="bg_end_prpl">#41295A</color>
+    <color name="bg_start_prpl">#2F0743</color>
+    <color name="bg_end_tr">#e96443</color>
+    <color name="bg_start_tr">#904e95</color>
+    <color name="sub_txt">#CCB3AE</color>
+
 
 
 </resources>

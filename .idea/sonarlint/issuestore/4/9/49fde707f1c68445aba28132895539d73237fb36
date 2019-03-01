@@ -1,0 +1,26 @@
+
+usquid:S00117q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»‡’¢ûÿÿÿÿ8Ùé‰¢“-
+psquid:S00116"QRename this field "str_dt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šú‰á8Ú·í¡“-
+wsquid:S00116"SRename this field "str_base" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÔ×øÿÿÿÿ8º§µ¡“-
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç‘µ8Ùé‰¢“-
+ssquid:S00116"TRename this field "mdl_coord" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Öáê8º§µ¡“-
+qsquid:S00117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê–¡ú8Ùé‰¢“-
+rsquid:S00116!"SRename this field "str_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚şñ 8Ú·í¡“-
+ysquid:S00116"URename this field "mdl_clouds" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï˜ŸÄøÿÿÿÿ8º§µ¡“-
+qsquid:S00116#"RRename this field "str_cod" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üı¥8Ú·í¡“-
+vsquid:S00117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äìÍŠúÿÿÿÿ8Ùé‰¢“-
+usquid:S00117Y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™´€ƒşÿÿÿÿ8Ùé‰¢“-
+}squid:S00116"YRename this field "mdlist_weather" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å›Üüùÿÿÿÿ8º§µ¡“-
+qsquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¿Ê¨8Ùé‰¢“-
+psquid:S00116"QRename this field "str_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Òá8Ú·í¡“-
+qsquid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ê°´8Ùé‰¢“-
+qsquid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äªÉÉ8Ùé‰¢“-
+ysquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³çãË8º§µ¡“-
+vsquid:S00117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ì®ãşÿÿÿÿ8Ùé‰¢“-
+psquid:S00117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃºçŞ8Ùé‰¢“-
+usquid:S00117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô—¨Ëúÿÿÿÿ8Ùé‰¢“-
+xsquid:S00116"YRename this field "str_visibility" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÍÓ8Ãâ¡“-
+wsquid:S00116"SRename this field "mdl_wind" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ù¹­øÿÿÿÿ8º§µ¡“-
+qsquid:S00116"RRename this field "mdl_sys" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş×ñ¬8Ú·í¡“-
+psquid:S00117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯½äÚ8Ùé‰¢“-
+rsquid:S00116"SRename this field "mdl_main" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïã“8º§µ¡“-

@@ -1,0 +1,10 @@
+
+wsquid:S00116"SRename this field "str_icon" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î¹³×ûÿÿÿÿ8ÃâŠ¡“-
+psquid:S00117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜÷ÃÓ8Ëó†¢“-
+rsquid:S00116"SRename this field "str_main" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬¥·8õ Š¡“-
+psquid:S00116"QRename this field "str_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Òá8Ê¶†¢“-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³çãË
+ysquid:S00116"ZRename this field "str_description" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÁ¿ÿ8õ Š¡“-
+usquid:S001177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ì®ãşÿÿÿÿ8Ëó†¢“-
+psquid:S00117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ºÈÆ8Ëó†¢“-
+usquid:S00117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Íäüÿÿÿÿ8Ëó†¢“-

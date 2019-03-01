@@ -45,6 +45,10 @@ public class SplashScreenActivity extends AppCompatActivity {
     TextView text_splash_subtitle;
     @BindView(R.id.btn_continue)
     Button btn_continue;
+    @BindView(R.id.txt_seltd_lang)
+    TextView txt_seltd_lang;
+    @BindView(R.id.txt_sel_lang)
+    TextView txt_sel_lang;
 
 
     private Typeface typeface;
@@ -144,7 +148,12 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         typeface = Typeface.createFromAsset(getAssets(), "fonts/Fabulous_PERSONAL_USE.ttf");
         text_splash_title.setTypeface(typeface);
+/*
+        txt_sel_lang.setTypeface(typeface);
+        txt_seltd_lang.setTypeface(typeface);
+        btn_continue.setTypeface(typeface);
         text_splash_subtitle.setTypeface(typeface);
+*/
 
 //        Handler handler = new Handler();
 //        handler.postDelayed(new Runnable() {

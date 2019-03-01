@@ -1,0 +1,17 @@
+
+rsquid:S3008"URename this field "is_app_pin" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‘Ód8áğ‚—“-
+Msquid:S1444"0Make this "public static is_app_pin" field final(×‘Ód8áğ‚—“-
+Š"squid:ClassVariableVisibilityCheck"VMake is_app_pin a static final constant or non-public and provide accessors if needed.(×‘Ód8áğ‚—“-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆîóíşÿÿÿÿ
+ssquid:S3008"PRename this field "APPID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÆÑŸÿÿÿÿÿ8ÈÆş“-
+"squid:ClassVariableVisibilityCheck"SMake appName a static final constant or non-public and provide accessors if needed.(°“Øÿşÿÿÿÿ8„³Ö–“-
+Psquid:S1444"-Make this "public static appName" field final(°“Øÿşÿÿÿÿ8„³Ö–“-
+Msquid:S1444"*Make this "public static data" field final(…Šàøÿÿÿÿÿ8èŠ¸Ÿ“-
+"squid:ClassVariableVisibilityCheck
+"VMake screenshot a static final constant or non-public and provide accessors if needed.(Ô½ıÿÿÿÿ8¼Ô—“-
+Š"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(…Šàøÿÿÿÿÿ8èŠ¸Ÿ“-
+Nsquid:S1444"+Make this "public static APPID" field final(öÆÑŸÿÿÿÿÿ8ÈÆş“-
+Ssquid:S1444
+"0Make this "public static screenshot" field final(Ô½ıÿÿÿÿ8¼Ô—“-
+‹"squid:ClassVariableVisibilityCheck"QMake APPID a static final constant or non-public and provide accessors if needed.(öÆÑŸÿÿÿÿÿ8ÈÆş“-
+]squid:S1118":Add a private constructor to hide the implicit public one.(á·á¤øÿÿÿÿ8°ªÕ–“-

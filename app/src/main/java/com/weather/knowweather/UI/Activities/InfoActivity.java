@@ -8,6 +8,7 @@ import android.widget.TextView;
 import com.weather.knowweather.R;
 import com.weather.knowweather.UI.Models.WeatherData;
 import com.weather.knowweather.Utilities.CONSTANTS;
+import com.weather.knowweather.Utilities.CommonUtilities;
 import com.weather.knowweather.Utilities.GsonUtils;
 
 import butterknife.BindView;
@@ -40,6 +41,14 @@ public class InfoActivity extends AppCompatActivity {
     TextView txt_lbl_latlong;
     @BindView(R.id.txt_latlong)
     TextView txt_latlong;
+    @BindView(R.id.txt_lbl_sunrise)
+    TextView txt_lbl_sunrise;
+    @BindView(R.id.txt_sunrise)
+    TextView txt_sunrise;
+    @BindView(R.id.txt_lbl_sunset)
+    TextView txt_lbl_sunset;
+    @BindView(R.id.txt_sunset)
+    TextView txt_sunset;
 
 
 //    private Typeface typeface;
@@ -61,8 +70,13 @@ public class InfoActivity extends AppCompatActivity {
     private void setData(String data) {
         try {
             WeatherData weatherData = GsonUtils.getInstance().fromJson(data, WeatherData.class);
-
-
+            txt_loc.setText(weatherData.getStr_name() /*+ "," + weatherData.getMdl_sys().getStr_country()*/);
+            txt_temp.setText(String.format("%.2f", Double.parseDouble(weatherData.getMdl_main().getStr_temp())) + "F" + " / " + String.format("%.2f", Double.parseDouble(CommonUtilities.convertFtoC(weatherData.getMdl_main().getStr_temp()))) + "C");
+            txt_humid.setText(String.format("%.2f", Double.parseDouble(weatherData.getMdl_main().getStr_humidity())));
+            txt_desc.setText(weatherData.getMdlist_weather().get(0).getStr_description());
+            txt_latlong.setText(String.format("%.5f", Double.parseDouble(weatherData.getMdl_coord().getStr_lat())) + " , " + String.format("%.5f", Double.parseDouble(weatherData.getMdl_coord().getStr_lon())));
+            txt_sunrise.setText(CommonUtilities.covertMsToDate(Long.parseLong(weatherData.getMdl_sys().getStr_sunrise())));
+            txt_sunset.setText(CommonUtilities.covertMsToDate(Long.parseLong(weatherData.getMdl_sys().getStr_sunset())));
         } catch (Exception e) {
             e.printStackTrace();
         }

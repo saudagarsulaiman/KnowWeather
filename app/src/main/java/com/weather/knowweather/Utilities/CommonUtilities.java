@@ -20,7 +20,9 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.weather.knowweather.R;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -191,6 +193,23 @@ public final class CommonUtilities {
         return android_id;
     }
 
+    public static String convertFtoC(String str_temp) {
+        String result = "0";
+        double res = 0.0, f = Double.parseDouble(str_temp);
+        res = (f - 32) * 5 / 9;
+        result = String.valueOf(res);
+//        result = res + "";
+        return result;
+    }
+
+    public static String covertMsToDate(long timestampInMilliSeconds) {
+        timestampInMilliSeconds = timestampInMilliSeconds * 1000;
+        Date date = new Date();
+        date.setTime(timestampInMilliSeconds);
+        String formattedDate = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(date);
+        return formattedDate;
+
+    }
 }
 
 

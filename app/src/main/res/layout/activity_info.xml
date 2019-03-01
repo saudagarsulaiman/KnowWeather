@@ -182,4 +182,70 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_sunrise"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/sunrise"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_sunrise"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/sunrise"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin5"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/def_padding"
+        android:paddingLeft="@dimen/def_padding"
+        android:paddingEnd="@dimen/def_padding"
+        android:paddingRight="@dimen/def_padding"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/txt_lbl_sunset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/sunset"
+            android:textColor="@color/sub_txt"
+            android:textSize="@dimen/def_lbl_size" />
+
+        <TextView
+            android:id="@+id/txt_sunset"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left|start"
+            android:text="@string/sunset"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_lbl_size" />
+
+    </LinearLayout>
+
 </LinearLayout>

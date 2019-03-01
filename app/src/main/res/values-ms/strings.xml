@@ -15,19 +15,21 @@
     <string name="data_not_found">Tiada data dijumpai</string>
     <string name="select_language">Pilih Bahasa :</string>
     <string name="selected_language">Bahasa terpilih:</string>
-    <string name="empty_name">Please Enter City Name</string>
-    <string name="enter_name">Enter City Name  or Country Code :</string>
-    <string name="details">Details</string>
-    <string name="location">Location</string>
-    <string name="temp">Temperature</string>
-    <string name="humid">Humidity</string>
-    <string name="desc">Description</string>
-    <string name="latlong"><![CDATA[Latitude & Longitude]]></string>
-    <string name="enter_id">Enter City ID</string>
-    <string name="search_id">Search By City ID</string>
-    <string name="search_name">Search By City Name  or Country Code</string>
-    <string name="search">Search</string>
-    <string name="empty_id">Please Enter City ID</string>
+    <string name="empty_name">Sila masukkan Nama Bandar</string>
+    <string name="enter_name">Masukkan Nama Bandar :</string>
+    <string name="details">Butiran</string>
+    <string name="location">Lokasi :</string>
+    <string name="temp">Suhu</string>
+    <string name="humid">Kelembapan</string>
+    <string name="desc">Penerangan</string>
+    <string name="latlong">Latitud, Longitud</string>
+    <string name="enter_id">Masukkan ID Bandar :</string>
+    <string name="search_id">Cari mengikut ID bandar</string>
+    <string name="search_name">Cari mengikut Nama Bandar</string>
+    <string name="search">Carian</string>
+    <string name="empty_id">Sila masukkan ID Bandar</string>
+    <string name="sunrise">Matahari terbit</string>
+    <string name="sunset">Matahari terbenam</string>
 
 
 </resources>

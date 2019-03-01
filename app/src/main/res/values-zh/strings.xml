@@ -15,19 +15,21 @@
     <string name="data_not_found">找不到数据</string>
     <string name="select_language">选择一种语言：</string>
     <string name="selected_language">选定的语言：</string>
-    <string name="empty_name">Please Enter City Name</string>
-    <string name="enter_name">Enter City Name  or Country Code :</string>
-    <string name="details">Details</string>
-    <string name="location">Location</string>
-    <string name="temp">Temperature</string>
-    <string name="humid">Humidity</string>
-    <string name="desc">Description</string>
-    <string name="latlong"><![CDATA[Latitude & Longitude]]></string>
-    <string name="enter_id">Enter City ID</string>
-    <string name="search_id">Search By City ID</string>
-    <string name="search_name">Search By City Name  or Country Code</string>
-    <string name="search">Search</string>
-    <string name="empty_id">Please Enter City ID</string>
+    <string name="empty_name">请输入城市名称</string>
+    <string name="enter_name">输入城市名称：</string>
+    <string name="details">详情</string>
+    <string name="location">地点：</string>
+    <string name="temp">温度</string>
+    <string name="humid">湿度</string>
+    <string name="desc">描述</string>
+    <string name="latlong">纬度，经度</string>
+    <string name="enter_id">输入城市ID：</string>
+    <string name="search_id">按城市ID搜索</string>
+    <string name="search_name">按城市名称搜索</string>
+    <string name="search">搜索</string>
+    <string name="empty_id">请输入城市ID</string>
+    <string name="sunrise">日出</string>
+    <string name="sunset">日落</string>
 
 
 </resources>

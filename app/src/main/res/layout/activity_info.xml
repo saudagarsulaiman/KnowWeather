@@ -1,251 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/lnr_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_grad"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/txt_data"
+    <LinearLayout
+        android:id="@+id/lnr_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_grad"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin50"
+            android:text="@string/details"
+            android:textColor="@color/white"
+            android:textSize="@dimen/def_ttl_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/def_margin"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_loc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/location"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_loc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_temp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/temp"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_temp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/temp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_humid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/humid"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_humid"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/humid"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/desc"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/desc"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_latlong"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/latlong"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_latlong"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/latlong"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_sunrise"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/sunrise"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_sunrise"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/sunrise"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin5"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/def_padding"
+            android:paddingLeft="@dimen/def_padding"
+            android:paddingEnd="@dimen/def_padding"
+            android:paddingRight="@dimen/def_padding"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_lbl_sunset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/sunset"
+                android:textColor="@color/sub_txt"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <TextView
+                android:id="@+id/txt_sunset"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left|start"
+                android:text="@string/sunset"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/margin50"
-        android:text="@string/details"
-        android:textColor="@color/white"
-        android:textSize="@dimen/def_ttl_size"
-        android:textStyle="bold" />
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1128305322475918/9369718598" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/def_margin"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_loc"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/location"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_loc"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/location"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin5"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_temp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/temp"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_temp"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/temp"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin5"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_humid"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/humid"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_humid"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/humid"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin5"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_desc"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/desc"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_desc"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/desc"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin5"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_latlong"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/latlong"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_latlong"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/latlong"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin5"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_sunrise"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/sunrise"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_sunrise"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/sunrise"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin5"
-        android:orientation="horizontal"
-        android:paddingStart="@dimen/def_padding"
-        android:paddingLeft="@dimen/def_padding"
-        android:paddingEnd="@dimen/def_padding"
-        android:paddingRight="@dimen/def_padding"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/txt_lbl_sunset"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/sunset"
-            android:textColor="@color/sub_txt"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <TextView
-            android:id="@+id/txt_sunset"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left|start"
-            android:text="@string/sunset"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>

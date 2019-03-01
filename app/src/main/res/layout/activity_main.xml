@@ -1,145 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_grad"
-    android:orientation="vertical">
+    android:background="@drawable/bg_grad">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rgrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/def_margin"
+            android:layout_marginLeft="@dimen/def_margin"
+            android:layout_marginTop="@dimen/margin50"
+            android:layout_marginEnd="@dimen/def_margin"
+            android:layout_marginRight="@dimen/def_margin">
+
+            <RadioButton
+                android:id="@+id/rbtn_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableStart="@drawable/sel_radio_btn"
+                android:drawableLeft="@drawable/sel_radio_btn"
+                android:drawablePadding="@dimen/margin5"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/search_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <RadioButton
+                android:id="@+id/rbtn_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin5"
+                android:button="@null"
+                android:drawableStart="@drawable/sel_radio_btn"
+                android:drawableLeft="@drawable/sel_radio_btn"
+                android:drawablePadding="@dimen/margin5"
+                android:gravity="center"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="@string/search_id"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
 
 
-    <!--
+        </RadioGroup>
+
+
         <LinearLayout
+            android:id="@+id/lnr_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin50"
-            android:padding="@dimen/def_padding"
-            android:weightSum="1">
-    -->
+            android:orientation="vertical"
+            android:visibility="gone">
 
-    <RadioGroup
-        android:id="@+id/rgrp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/def_margin"
-        android:layout_marginLeft="@dimen/def_margin"
-        android:layout_marginTop="@dimen/margin50"
-        android:layout_marginEnd="@dimen/def_margin"
-        android:layout_marginRight="@dimen/def_margin">
+            <TextView
+                android:id="@+id/txt_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin50"
+                android:text="@string/enter_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
 
-        <RadioButton
-            android:id="@+id/rbtn_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:button="@null"
-            android:drawableStart="@drawable/sel_radio_btn"
-            android:drawableLeft="@drawable/sel_radio_btn"
-            android:drawablePadding="@dimen/margin5"
-            android:gravity="center"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:text="@string/search_name"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/def_btn_height"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/white"
+                android:inputType="textPersonName"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:paddingStart="@dimen/def_padding"
+                android:paddingLeft="@dimen/def_padding"
+                android:singleLine="true"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/def_text_size" />
 
-        <RadioButton
-            android:id="@+id/rbtn_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin5"
-            android:button="@null"
-            android:drawableStart="@drawable/sel_radio_btn"
-            android:drawableLeft="@drawable/sel_radio_btn"
-            android:drawablePadding="@dimen/margin5"
-            android:gravity="center"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:text="@string/search_id"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-
-    </RadioGroup>
-
-    <!--
         </LinearLayout>
-    -->
 
-    <LinearLayout
-        android:id="@+id/lnr_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone">
-
-        <TextView
-            android:id="@+id/txt_lbl"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/lnr_id"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin50"
-            android:text="@string/enter_name"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
+            android:orientation="vertical"
+            android:visibility="gone">
 
-        <EditText
-            android:id="@+id/edt_name"
+            <TextView
+                android:id="@+id/txt_lbl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin50"
+                android:text="@string/enter_id"
+                android:textColor="@color/white"
+                android:textSize="@dimen/def_lbl_size" />
+
+            <EditText
+                android:id="@+id/edt_id"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/def_btn_height"
+                android:layout_marginTop="@dimen/margin10"
+                android:background="@color/white"
+                android:inputType="number"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:paddingStart="@dimen/def_padding"
+                android:paddingLeft="@dimen/def_padding"
+                android:singleLine="true"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/def_text_size" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_search"
             android:layout_width="match_parent"
             android:layout_height="@dimen/def_btn_height"
-            android:layout_marginTop="@dimen/margin10"
-            android:background="@color/white"
-            android:inputType="textPersonName"
-            android:maxLength="15"
-            android:maxLines="1"
-            android:paddingStart="@dimen/def_padding"
-            android:paddingLeft="@dimen/def_padding"
-            android:singleLine="true"
-            android:textAllCaps="false"
-            android:textColor="@color/colorAccent"
-            android:textSize="@dimen/def_text_size" />
+            android:layout_marginTop="@dimen/def_margin"
+            android:background="@drawable/rec_btn_grad"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:visibility="gone" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/lnr_id"
-        android:layout_width="match_parent"
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:visibility="gone">
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1128305322475918/7261595857" />
+    <!--ads:adUnitId="ca-app-pub-1128305322475918/7261595857"-->
+    <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
 
-        <TextView
-            android:id="@+id/txt_lbl1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin50"
-            android:text="@string/enter_id"
-            android:textColor="@color/white"
-            android:textSize="@dimen/def_lbl_size" />
-
-        <EditText
-            android:id="@+id/edt_id"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/def_btn_height"
-            android:layout_marginTop="@dimen/margin10"
-            android:background="@color/white"
-            android:inputType="number"
-            android:maxLength="10"
-            android:maxLines="1"
-            android:paddingStart="@dimen/def_padding"
-            android:paddingLeft="@dimen/def_padding"
-            android:singleLine="true"
-            android:textAllCaps="false"
-            android:textColor="@color/colorAccent"
-            android:textSize="@dimen/def_text_size" />
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/btn_search"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/def_btn_height"
-        android:layout_marginTop="@dimen/def_margin"
-        android:background="@drawable/rec_btn_grad"
-        android:text="@string/search"
-        android:textColor="@color/white"
-        android:visibility="gone" />
-
-
-</LinearLayout>
+</RelativeLayout>

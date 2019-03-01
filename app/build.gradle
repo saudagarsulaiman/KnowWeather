@@ -63,4 +63,8 @@ dependencies {
 //    Multidex Crash
     implementation 'com.android.support:multidex:1.0.3'
 
+
+//    AdMob (Google Ads)
+    implementation 'com.google.android.gms:play-services-ads:17.1.1'
+
 }

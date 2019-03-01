@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.weather.knowweather.R;
 import com.weather.knowweather.UI.Models.WeatherData;
 import com.weather.knowweather.Utilities.CONSTANTS;
@@ -51,7 +54,8 @@ public class InfoActivity extends AppCompatActivity {
     TextView txt_sunset;
 
 
-//    private Typeface typeface;
+    //    private Typeface typeface;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +64,18 @@ public class InfoActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
 //        typeface = Typeface.createFromAsset(getAssets(), "fonts/Fabulous_PERSONAL_USE.ttf");
+
+        //        *************ADMOB STARTS*************
+//        Initialization
+        // Sample AdMob app ID: ca-app-pub-1128305322475918~5980126163
+        MobileAds.initialize(this, "ca-app-pub-1128305322475918~5980126163");
+
+//        WidgetAdView Implementation
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+//        *************ADMOB ENDS*************
+
 
         String data = getIntent().getStringExtra(CONSTANTS.data);
 

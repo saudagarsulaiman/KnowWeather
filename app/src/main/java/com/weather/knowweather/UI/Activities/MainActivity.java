@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -16,6 +15,9 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.weather.knowweather.R;
 import com.weather.knowweather.ServiceAPIs.WeatherDataApi;
 import com.weather.knowweather.Utilities.CONSTANTS;
@@ -63,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
     ProgressDialog progressDialog;
     String loginResponseMsg, loginResponseCod;
 
-//    Typeface typeface;
+    //    Typeface typeface;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +74,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
+
+//        *************ADMOB STARTS*************
+//        Initialization
+        // Sample AdMob app ID: ca-app-pub-1128305322475918~5980126163
+        MobileAds.initialize(this, "ca-app-pub-1128305322475918~5980126163");
+
+//        WidgetAdView Implementation
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+//        *************ADMOB ENDS*************
+
 /*
         typeface = Typeface.createFromAsset(getAssets(), "fonts/Fabulous_PERSONAL_USE.ttf");
         edt_name.setTypeface(typeface);

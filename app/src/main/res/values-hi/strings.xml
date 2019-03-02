@@ -1,0 +1,40 @@
+<resources>
+
+    <!--App Name-->
+    <string name="app_name">जानिए मौसम</string>
+
+
+    <string name="copied">कॉपी किया गया</string>
+    <string name="continu">आगामी</string>
+    <string name="please_wait">कृपया प्रतीक्षा करें...</string>
+    <string name="errortxt">कुछ गलत हुआ। हम इस पर काम कर रहे हैं। कृपया कुछ समय बाद प्रयास करें</string>
+    <string name="Timeout">ब्रेक का अनुरोध। कृपया पुन: प्रयास करें।</string>
+    <string name="networkerror">नेटवर्क त्रुटि, कृपया कुछ समय बाद प्रयास करें</string>
+    <string name="city_not_found">सिटी नहीं मिली</string>
+    <string name="update_app">एप्लिकेशन अपडेट करें</string>
+    <string name="data_not_found">कोई डेटा नहीं मिला</string>
+    <string name="select_language">भाषा चुनिए :</string>
+    <string name="selected_language">चयनित भाषा :</string>
+    <string name="empty_name">कृपया शहर का नाम दर्ज करें</string>
+    <string name="enter_name">शहर का नाम दर्ज करें:</string>
+    <string name="details">विवरण</string>
+    <string name="location">स्थान</string>
+    <string name="temp">तापमान</string>
+    <string name="humid">नमी</string>
+    <string name="desc">विवरण</string>
+    <string name="latlong">अक्षांश , देशांतर</string>
+    <string name="enter_id">सिटी आईडी दर्ज करें :</string>
+    <string name="search_id">सिटी आईडी द्वारा खोजें</string>
+    <string name="search_name">सिटी नाम से खोजें</string>
+    <string name="search">खोज</string>
+    <string name="empty_id">कृपया सिटी आईडी दर्ज करें</string>
+    <string name="sunrise">सूर्योदय</string>
+    <string name="sunset">सूर्यास्त</string>
+    <string name="sel_search_type">अपना खोज प्रकार चुनें:</string>
+    <string name="internetconnection">इस ऐप के लिए इंटरनेट कनेक्शन की जरूरत है। आप इंटरनेट से नहीं जुड़े हैं।</string>
+    <string name="search_zip">ज़िप कोड द्वारा खोज (केवल यूएसए)</string>
+    <string name="enter_ZIP">ज़िप कोड दर्ज करें (केवल यूएसए):</string>
+    <string name="empty_zip">कृपया ज़िप कोड दर्ज करें (केवल यूएसए)</string>
+
+
+</resources>

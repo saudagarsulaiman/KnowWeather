@@ -1,19 +1,22 @@
 
-ysquid:S14503"VRemove the "mWindow" field and declare it as a local variable in the relevant methods.(³ñ¯Êùÿÿÿÿ8«¯ã˜“-
-tsquid:S00116"URename this field "img_arabic" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›œˆÓ8ôî®“-
-{squid:S00116/"WRename this field "btn_continue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üø“ÿÿÿÿÿ8Ìù·“-
-osquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(â¼„ˆşÿÿÿÿ8©¶Š£“-
-isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(›œˆÓ8¡ù°“-
-osquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(™©çèøÿÿÿÿ8©¶Š£“-
-~squid:S00116-"_Rename this field "text_splash_subtitle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•­¡ö8ÁÆË£“-
-jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹‹îÍ8©¶Š£“-
+qsquid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÓ™ 8©¶Š£“-
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(â¼„ˆşÿÿÿÿ8©¶Š£“-
 xsquid:S00116!"TRename this field "img_malay" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¶Å³ûÿÿÿÿ8¡ù°“-
+osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(¦ĞÂ„şÿÿÿÿ8»”‘Á“-
+osquid:CommentedOutCodeLine¥"<This block of commented-out lines of code should be removed.(™©çèøÿÿÿÿ8©¶Š£“-
 usquid:S00116"VRename this field "img_english" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áê‚8½Ï®“-
-usquid:S00116"VRename this field "img_chinese" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôˆï8¡ù°“-
-zsquid:S14502"WRemove the "typeface" field and declare it as a local variable in the relevant methods.(‰ƒÔåÿÿÿÿÿ8›Ó“-
-vsquid:S00116#"WRename this field "img_sel_lang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş€ä¥8÷ ƒ£“-
-{squid:S00116+"\Rename this field "text_splash_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŞÕ 8Ìù·“-
-qsquid:S00117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÓ™ 8©¶Š£“-
-osquid:CommentedOutCodeLine˜"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ8©¶Š£“-
 rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”²¡Î
+isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(›œˆÓ8¡ù°“-
+jsquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(‹‹îÍ8©¶Š£“-
+ysquid:S14507"VRemove the "mWindow" field and declare it as a local variable in the relevant methods.(³ñ¯Êùÿÿÿÿ8«¯ã˜“-
+~squid:S00116-"_Rename this field "text_splash_subtitle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•­¡ö8ÁÆË£“-
 zsquid:S00116"VRename this field "img_russian" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀæãÀúÿÿÿÿ8¡ù°“-
+vsquid:S001163"WRename this field "txt_sel_lang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¢ûé8‹¯×½“-
+zsquid:S14506"WRemove the "typeface" field and declare it as a local variable in the relevant methods.(‰ƒÔåÿÿÿÿÿ8ßÌ‘Á“-
+osquid:CommentedOutCodeLine¡"<This block of commented-out lines of code should be removed.(áíüÈùÿÿÿÿ8©¶Š£“-
+vsquid:S00116#"WRename this field "img_sel_lang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş€ä¥8÷ ƒ£“-
+xsquid:S001161"YRename this field "txt_seltd_lang" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯òİ°8‹¯×½“-
+{squid:S00116/"WRename this field "btn_continue" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üø“ÿÿÿÿÿ8Ìù·“-
+tsquid:S00116"URename this field "img_arabic" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›œˆÓ8ôî®“-
+{squid:S00116+"\Rename this field "text_splash_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØŞÕ 8Ìù·“-
+usquid:S00116"VRename this field "img_chinese" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôˆï8¡ù°“-

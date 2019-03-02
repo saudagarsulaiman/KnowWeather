@@ -1,7 +1,25 @@
 
-]squid:S1854&"?Remove this useless assignment to local variable "weatherData".(öü˜î8¼õ‘¢“-
-Nsquid:S1481&"0Remove this unused "weatherData" local variable.(öü˜î8¼õ‘¢“-
-ssquid:S00116"URename this field "lnr_parent" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÛûz8ÈÔ©¢“-
+tsquid:S1450C"VRemove the "mAdView" field and declare it as a local variable in the relevant methods.(­üêª8î³†Ç“-
+ssquid:S00116"URename this field "lnr_parent" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÛûz8ÈÔ©¢“-
+vsquid:S00116%"WRename this field "txt_lbl_temp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎîÇÈ8àë›Á“-
+rsquid:S00116'"SRename this field "txt_temp" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·şé8àë›Á“-
+psquid:S00116#"RRename this field "txt_loc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Şê58àë›Á“-
+ssquid:S00116+"TRename this field "txt_humid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÜæ“8àë›Á“-
+tsquid:S00116;"URename this field "txt_sunset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï¿ÆÌ8îŞÄ“-
+ysquid:S001165"ZRename this field "txt_lbl_sunrise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹×¶Ÿ8îŞÄ“-
+wsquid:S001169"YRename this field "txt_lbl_sunset" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÚ8îŞÄ“-
+usquid:S001163"VRename this field "txt_latlong" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÆöÆ8àë›Á“-
+nsquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(˜Ä…×üÿÿÿÿ8‚ÅÁ“-
+nsquid:CommentedOutCodeLineL"<This block of commented-out lines of code should be removed.(Œƒ’‚ÿÿÿÿÿ8™¬Á“-
+{squid:S00116-"WRename this field "txt_lbl_desc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı‘üûÿÿÿÿ8àë›Á“-
+qsquid:S00116?"RRename this field "btn_map" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë‰˜Ø8½–ØË“-
 rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”²¡Î
-rsquid:S00116"SRename this field "txt_data" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìñÜñ8ùáÁŸ“-
-Fsquid:S1148+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰»Ç¡“-
+nsquid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(ô«Ûûÿÿÿÿ8‚€£Ì“-
+rsquid:S00116"SRename this field "txt_data" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìñÜñ8ùáÁŸ“-
+usquid:S001167"VRename this field "txt_sunrise" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÚÃ¬8îŞÄ“-
+|squid:S00116)"XRename this field "txt_lbl_humid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü½äòıÿÿÿÿ8àë›Á“-
+rsquid:S00116/"SRename this field "txt_desc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÈÉñ8àë›Á“-
+usquid:S00116!"VRename this field "txt_lbl_loc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹õ¯¸8àë›Á“-
+wsquid:S00116="SRename this field "img_back" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×éıÔÿÿÿÿÿ8«–”Ë“-
+~squid:S001161"ZRename this field "txt_lbl_latlong" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÛ‰øÿÿÿÿ8àë›Á“-
+Gsquid:S1148„"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‰»Ç¡“-

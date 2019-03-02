@@ -53,6 +53,14 @@
             android:orientation="horizontal">
 
             <ImageView
+                android:id="@+id/img_hindi"
+                android:layout_width="@dimen/width45"
+                android:layout_height="@dimen/height45"
+                android:layout_margin="@dimen/margin10"
+                android:scaleType="fitXY"
+                android:src="@drawable/hindi" />
+
+            <ImageView
                 android:id="@+id/img_arabic"
                 android:layout_width="@dimen/width45"
                 android:layout_height="@dimen/height45"

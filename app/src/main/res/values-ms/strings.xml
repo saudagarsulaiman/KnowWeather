@@ -30,6 +30,11 @@
     <string name="empty_id">Sila masukkan ID Bandar</string>
     <string name="sunrise">Matahari terbit</string>
     <string name="sunset">Matahari terbenam</string>
+    <string name="sel_search_type">Pilih jenis carian anda :</string>
+    <string name="internetconnection">Aplikasi ini memerlukan Sambungan Internet. Anda tidak disambungkan ke internet sekarang.</string>
+    <string name="search_zip">Cari Dengan ZIP Kod (Amerika Syarikat sahaja)</string>
+    <string name="enter_ZIP">Masukkan Kod ZIP (Amerika Syarikat Sahaja):</string>
+    <string name="empty_zip">Sila masukkan kod ZIP (Amerika Syarikat sahaja)</string>
 
 
 </resources>

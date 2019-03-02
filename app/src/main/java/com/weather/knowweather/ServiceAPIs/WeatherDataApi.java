@@ -17,4 +17,7 @@ public interface WeatherDataApi {
     @GET("/data/2.5/weather?")
     Call<ResponseBody> getDataById(@Query("id") String cityID, @Query("APPID") String APPID, @Query("units") String units);
 
+    @GET("/data/2.5/weather?")
+    Call<ResponseBody> getDataByZipCode(@Query("zip") String cityID, @Query("APPID") String APPID, @Query("units") String units);
+
 }

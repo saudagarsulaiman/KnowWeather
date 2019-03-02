@@ -30,6 +30,11 @@
     <string name="empty_id">Пожалуйста, введите код города</string>
     <string name="sunrise">Восход</string>
     <string name="sunset">Заход солнца</string>
+    <string name="sel_search_type">Выберите тип поиска :</string>
+    <string name="internetconnection">Это приложение требует подключения к интернету. В настоящее время вы не подключены к Интернету.</string>
+    <string name="search_zip">Поиск по почтовому индексу (только для США)</string>
+    <string name="enter_ZIP">Введите почтовый индекс (только для США):</string>
+    <string name="empty_zip">Пожалуйста, введите почтовый индекс (только для США)</string>
 
 
 </resources>

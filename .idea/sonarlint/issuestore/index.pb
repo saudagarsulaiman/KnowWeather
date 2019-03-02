@@ -102,3 +102,9 @@ b
 2app/src/main/res/layout/activity_splash_screen.xml,f\7\f7df685f78aceccfe92840b30dd70c70674d7944
 Å
 Qapp/src/main/java/com/weather/knowweather/UI/Activities/SplashScreenActivity.java,6\7\6735d2704d469949cce268b44d2feab4021ab698
+U
+%app/src/main/res/drawable/bg_grad.xml,b\b\bb702a374453d50f56cf9d486870bfcbbf9acff8
+Z
+*app/src/main/res/drawable/rec_btn_grad.xml,6\1\61cb6c91a70a3aa9e727700504f2e27304b87078
+[
++app/src/main/res/drawable/sel_radio_btn.xml,d\c\dc6fd990de38ae872b0bbcbbbfda68aec6bcab9f

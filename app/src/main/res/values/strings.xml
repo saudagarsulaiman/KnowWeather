@@ -30,6 +30,11 @@
     <string name="empty_id">Please Enter City ID</string>
     <string name="sunrise">Sunrise</string>
     <string name="sunset">Sunset</string>
+    <string name="sel_search_type">Choose your search type :</string>
+    <string name="internetconnection">This App needs Internet Connection. You are currently not connected to internet.</string>
+    <string name="search_zip">Search By ZIP Code (USA only)</string>
+    <string name="empty_zip">Please Enter ZIP Code (USA Only)</string>
+    <string name="enter_ZIP">Enter ZIP Code (USA Only):</string>
 
 
 </resources>

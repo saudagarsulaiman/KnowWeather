@@ -21,6 +21,9 @@ import butterknife.ButterKnife;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
+
+    @BindView(R.id.img_hindi)
+    ImageView img_hindi;
     @BindView(R.id.img_english)
     ImageView img_english;
     @BindView(R.id.img_arabic)
@@ -75,6 +78,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             img_sel_lang.setImageDrawable(getResources().getDrawable(R.drawable.english));
             img_english.setVisibility(View.GONE);
             img_arabic.setVisibility(View.VISIBLE);
+            img_hindi.setVisibility(View.VISIBLE);
             img_russian.setVisibility(View.VISIBLE);
             img_chinese.setVisibility(View.VISIBLE);
             img_malay.setVisibility(View.VISIBLE);
@@ -83,18 +87,21 @@ public class SplashScreenActivity extends AppCompatActivity {
             img_english.setVisibility(View.VISIBLE);
             img_arabic.setVisibility(View.GONE);
             img_russian.setVisibility(View.VISIBLE);
+            img_hindi.setVisibility(View.VISIBLE);
             img_chinese.setVisibility(View.VISIBLE);
             img_malay.setVisibility(View.VISIBLE);
         } else if (strLocale.equalsIgnoreCase("zh")) {
             img_sel_lang.setImageDrawable(getResources().getDrawable(R.drawable.china));
             img_english.setVisibility(View.VISIBLE);
             img_arabic.setVisibility(View.VISIBLE);
+            img_hindi.setVisibility(View.VISIBLE);
             img_russian.setVisibility(View.VISIBLE);
             img_chinese.setVisibility(View.GONE);
             img_malay.setVisibility(View.VISIBLE);
         } else if (strLocale.equalsIgnoreCase("ru")) {
             img_sel_lang.setImageDrawable(getResources().getDrawable(R.drawable.russia));
             img_english.setVisibility(View.VISIBLE);
+            img_hindi.setVisibility(View.VISIBLE);
             img_arabic.setVisibility(View.VISIBLE);
             img_russian.setVisibility(View.GONE);
             img_chinese.setVisibility(View.VISIBLE);
@@ -103,11 +110,27 @@ public class SplashScreenActivity extends AppCompatActivity {
             img_sel_lang.setImageDrawable(getResources().getDrawable(R.drawable.malaysia));
             img_english.setVisibility(View.VISIBLE);
             img_arabic.setVisibility(View.VISIBLE);
+            img_hindi.setVisibility(View.VISIBLE);
             img_russian.setVisibility(View.VISIBLE);
             img_chinese.setVisibility(View.VISIBLE);
             img_malay.setVisibility(View.GONE);
+        } else if (strLocale.equalsIgnoreCase("hi")) {
+            img_sel_lang.setImageDrawable(getResources().getDrawable(R.drawable.hindi));
+            img_english.setVisibility(View.VISIBLE);
+            img_arabic.setVisibility(View.VISIBLE);
+            img_russian.setVisibility(View.VISIBLE);
+            img_chinese.setVisibility(View.VISIBLE);
+            img_malay.setVisibility(View.VISIBLE);
+            img_hindi.setVisibility(View.GONE);
         }
 
+        img_hindi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CommonUtilities.changeLang(SplashScreenActivity.this, "hi");
+                recreate();
+            }
+        });
         img_arabic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

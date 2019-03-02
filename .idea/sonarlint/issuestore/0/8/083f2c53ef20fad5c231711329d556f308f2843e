@@ -1,31 +1,37 @@
 
-Bsquid:S2185`"&Remove this silly call to "Math.round"(ŠÜú¸ıÿÿÿÿ
-osquid:S00117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÉ˜øøÿÿÿÿ
-osquid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ñ¶ıÿÿÿÿ
-Gsquid:S1148Œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ı‡øœ“-
-Bsquid:S2185f"&Remove this silly call to "Math.round"(±—Ùçøÿÿÿÿ
-=squid:S2185l"&Remove this silly call to "Math.round"(É¼†Ø
-tsquid:S3923d"]This conditional operation returns the same value whether the condition is "true" or "false".(´³–
-=squid:S2185c"&Remove this silly call to "Math.round"(Ì‘Å“
-squid:S1488¾"bImmediately return this expression instead of assigning it to the temporary variable "android_id".(˜ñ¶ıÿÿÿÿ
-Ksquid:S1172‡".Remove this unused method parameter "context".(²“Ôüÿÿÿÿ
-Xsquid:S2184c"ACast one of the operands of this division operation to a "float".(Ì‘Å“
-fsquid:S00100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã÷“‰
-Wsquid:S2184i"ACast one of the operands of this division operation to a "float".(¼£³
-nsquid:S1450!"WRemove the "myLocale" field and declare it as a local variable in the relevant methods.(ÇÕ‡
-]squid:S2184`"ACast one of the operands of this division operation to a "float".(ŠÜú¸ıÿÿÿÿ
-gsquid:CommentedOutCodeLine+"<This block of commented-out lines of code should be removed.(Ñ•³ûÿÿÿÿ
-Xsquid:S2184l"ACast one of the operands of this division operation to a "float".(É¼†Ø
-ysquid:S3923g"]This conditional operation returns the same value whether the condition is "true" or "false".(‘Œüÿÿÿÿ
-osquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û´¿àşÿÿÿÿ
-gsquid:CommentedOutCodeLinex"<This block of commented-out lines of code should be removed.(ï¸ıˆûÿÿÿÿ
-gsquid:CommentedOutCodeLine}"<This block of commented-out lines of code should be removed.(ûŠ”¾ûÿÿÿÿ
-Qsquid:S1118":Add a private constructor to hide the implicit public one.(­ÀÚŠ
-<squid:S2185i"&Remove this silly call to "Math.round"(¼£³
-gsquid:CommentedOutCodeLinet"<This block of commented-out lines of code should be removed.(œÇêÊûÿÿÿÿ
-]squid:S2184f"ACast one of the operands of this division operation to a "float".(±—Ùçøÿÿÿÿ
->squid:S1640“"Convert this Map to an EnumMap.(³‡–²8ı‡øœ“-
-jsquid:S00117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÍÂÿ
+squid:S1488À"bImmediately return this expression instead of assigning it to the temporary variable "android_id".(˜ñ¶ıÿÿÿÿ
 wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ˆîóíşÿÿÿÿ
-qsquid:S2293“"YReplace the type specification in this constructor call with the diamond operator ("<>").(³‡–²
->squid:S2129”"!Remove this "Integer" constructor(ù·¼şÿÿÿÿ
+=squid:S1659Æ"Declare "f" on a separate line.(œı†O8¦À‡Ä“-
+Bsquid:S2185h"&Remove this silly call to "Math.round"(±—Ùçøÿÿÿÿ
+=squid:S2185n"&Remove this silly call to "Math.round"(É¼†Ø
+Qsquid:S1118!":Add a private constructor to hide the implicit public one.(­ÀÚŠ
+Gsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ı‡øœ“-
+Bsquid:S2185b"&Remove this silly call to "Math.round"(ŠÜú¸ıÿÿÿÿ
+gsquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(ï¸ıˆûÿÿÿÿ
+>squid:S2129–"!Remove this "Integer" constructor(ù·¼şÿÿÿÿ
+ysquid:S3923i"]This conditional operation returns the same value whether the condition is "true" or "false".(‘Œüÿÿÿÿ
+>squid:S1640•"Convert this Map to an EnumMap.(³‡–²8ı‡øœ“-
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ûŠ”¾ûÿÿÿÿ
+Xsquid:S2184e"ACast one of the operands of this division operation to a "float".(Ì‘Å“
+jsquid:CommentedOutCodeLineÉ"<This block of commented-out lines of code should be removed.(ÃäÖ8Ç§‹Ä“-
+Ysquid:S1854Å":Remove this useless assignment to local variable "result".(ÜÒ­’8‘ûÃ“-
+jsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÍÂÿ
+gsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(Ñ•³ûÿÿÿÿ
+osquid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÉ˜øøÿÿÿÿ
+‰squid:S1488Ñ"eImmediately return this expression instead of assigning it to the temporary variable "formattedDate".(¤õıĞøÿÿÿÿ8É½ôÄ“-
+]squid:S2184h"ACast one of the operands of this division operation to a "float".(±—Ùçøÿÿÿÿ
+qsquid:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(³‡–²
+Usquid:S1854Æ"7Remove this useless assignment to local variable "res".(œı†O8¦À‡Ä“-
+qsquid:S00117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûú®8—ˆõÃ“-
+Ksquid:S1172‰".Remove this unused method parameter "context".(²“Ôüÿÿÿÿ
+Wsquid:S2184k"ACast one of the operands of this division operation to a "float".(¼£³
+tsquid:S3923f"]This conditional operation returns the same value whether the condition is "true" or "false".(´³–
+=squid:S2185e"&Remove this silly call to "Math.round"(Ì‘Å“
+Xsquid:S2184n"ACast one of the operands of this division operation to a "float".(É¼†Ø
+gsquid:CommentedOutCodeLinev"<This block of commented-out lines of code should be removed.(œÇêÊûÿÿÿÿ
+osquid:S00117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ñ¶ıÿÿÿÿ
+nsquid:S1450#"WRemove the "myLocale" field and declare it as a local variable in the relevant methods.(ÇÕ‡
+<squid:S2185k"&Remove this silly call to "Math.round"(¼£³
+]squid:S2184b"ACast one of the operands of this division operation to a "float".(ŠÜú¸ıÿÿÿÿ
+osquid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û´¿àşÿÿÿÿ
+fsquid:S00100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã÷“‰

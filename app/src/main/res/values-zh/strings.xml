@@ -30,6 +30,12 @@
     <string name="empty_id">请输入城市ID</string>
     <string name="sunrise">日出</string>
     <string name="sunset">日落</string>
+    <string name="sel_search_type">选择您的搜索类型：</string>
+
+    <string name="internetconnection">此应用程序需要Internet连接。您目前没有连接到互联网。</string>
+    <string name="search_zip">按邮政编码搜索（仅限美国）</string>
+    <string name="enter_ZIP">输入邮政编码（仅限美国）：</string>
+    <string name="empty_zip">请输入邮政编码（仅限美国）</string>
 
 
 </resources>

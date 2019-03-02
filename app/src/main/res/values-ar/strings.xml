@@ -30,5 +30,10 @@
     <string name="empty_id">يرجى إدخال معرف المدينة</string>
     <string name="sunrise">شروق الشمس</string>
     <string name="sunset">غروب الشمس</string>
+    <string name="sel_search_type">اختر نوع البحث الخاص بك:</string>
+    <string name="internetconnection">هذا التطبيق يحتاج اتصال إنترنت. أنت غير متصل حاليًا بالإنترنت.</string>
+    <string name="search_zip">البحث عن طريق الرمز البريدي (الولايات المتحدة فقط)</string>
+    <string name="enter_ZIP">أدخل الرمز البريدي (الولايات المتحدة الأمريكية فقط):</string>
+    <string name="empty_zip">الرجاء إدخال الرمز البريدي (الولايات المتحدة الأمريكية فقط)</string>
 
 </resources>
